@@ -450,7 +450,7 @@
   font-size: 24px;
   line-height: 42px;
   color: #fff;
-  background: #2a2935;
+  background: #2e343c;
   overflow: hidden;
 }
 .full-toc .full .min:before {
@@ -509,7 +509,7 @@
 .nav-left {
   width: 120px;
   height: 100%;
-  background: #2a2935;
+  background: #2e343c;
   box-shadow: inset -15px 0 15px -15px #222;
   float: left;
   position: relative;
@@ -550,7 +550,7 @@
   line-height: 19px;
 }
 .nav-left .icon a:hover {
-  color: #309e85;
+  color: #2e343c;
 }
 .nav-left ul {
   margin: 0;
@@ -792,7 +792,7 @@
   width: 3px;
 }
 .nav-right .title-list .tags-list .tag-wrapper::-webkit-scrollbar-thumb {
-  background: #309e85;
+  background: #2e343c;
 }
 .nav-right .title-list .tags-list .tag-wrapper li {
   float: none;
@@ -837,7 +837,7 @@
   width: 3px;
 }
 .nav-right .title-list #outline-list::-webkit-scrollbar-thumb {
-  background: #309e85;
+  background: #2e343c;
 }
 .nav-right .title-list #outline-list .toc {
   list-style-type: none;
@@ -923,7 +923,7 @@
 }
 .nav-right .title-list nav::-webkit-scrollbar-thumb,
 .nav-right .title-list #local-search-result::-webkit-scrollbar-thumb {
-  background: #309e85;
+  background: #2e343c;
 }
 .nav-right .title-list nav #no-item-tips,
 .nav-right .title-list #local-search-result #no-item-tips {
@@ -967,7 +967,7 @@
   left: 12px;
   z-index: 1;
   font-size: 18px;
-  color: #309e85;
+  color: #2e343c;
 }
 .nav-right .title-list nav a#top:before,
 .nav-right .title-list #local-search-result a#top:before {
@@ -1060,21 +1060,6 @@
   display: inline-block;
   margin-right: 10px;
   margin-left: -9px;
-}
-.cube1,
-.cube2 {
-  background-color: #bcc1c4;
-  width: 7px;
-  height: 7px;
-  position: absolute;
-  top: -6px;
-  left: 0;
-  -webkit-animation: cubemove 1.8s infinite ease-in-out;
-  animation: cubemove 1.8s infinite ease-in-out;
-}
-.cube2 {
-  -webkit-animation-delay: -0.9s;
-  animation-delay: -0.9s;
 }
 @-webkit-keyframes cubemove {
   25% {
@@ -1663,8 +1648,7 @@ h2 {
   z-index: 30;
   left: auto;
   right: -20px;
-  top: 50vh;
-  overflow: hidden;
+  top: 45vh;
   transition: left 0.5s cubic-bezier(0.77, 0, 0.175, 1);
 }
 .hide-list.fullscreen .brackets.first {
@@ -1674,9 +1658,9 @@ h2 {
   width: 20px;
   height: 40px;
   border-radius: 0 100px 100px 0;
-  background-color: #42b983;
+  background-color: #2e343c;
   cursor: pointer;
-  margin-left: -20px;
+  margin-left: 0px;
   transition: margin-left 0.5s cubic-bezier(0.77, 0, 0.175, 1);
 }
 .hide-list .semicircle .brackets {

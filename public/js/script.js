@@ -430,7 +430,7 @@ $(".full-toc .full,.semicircle").click(function (e) {
 });
 
 container.hover(function () {
-    $(".semicircle").css("margin-left", "-43px");
+    // $(".semicircle").css("margin-left", "-43px");
 },function () {
     $(".semicircle").css("margin-left", "0");
 })
